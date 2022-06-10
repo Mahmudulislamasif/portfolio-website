@@ -6,7 +6,9 @@ const Navbar = () => {
     <li><Link to='/home'>Home</Link></li>
     <li><Link to='/contact'>Contact Me</Link></li>
     <li><Link to="My Resume.pdf" target="_blank" className="border-2" download>Download Resume</Link></li>
-
+    <li><Link to='/blogs'>Blogs</Link></li>
+    <li><Link to='/about'>About</Link></li>
+    <li><a href='#projects'>Projects</a></li>
     </>
     return (
         <div className="navbar bg-purple-700 text-white">
@@ -19,7 +21,7 @@ const Navbar = () => {
                {menuBar}
             </ul>
             </div>
-            <Link to='/home' className="btn btn-ghost normal-case text-xl">Mohammad Mahmudul Islam</Link>
+            <Link to='/home' className="btn btn-ghost normal-case text-xl">Mahmudul Islam</Link>
         </div>
         <div className="navbar-center hidden lg:flex">
             <ul className="menu menu-horizontal p-0">
